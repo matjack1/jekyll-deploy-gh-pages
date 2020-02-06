@@ -1,4 +1,4 @@
-FROM starefossen/ruby-node:alpine
+FROM rozhok/ruby-node:latest
 
 # Set default locale for the environment
 ENV LC_ALL C.UTF-8
