@@ -2,6 +2,8 @@
 
 set -e
 
+yarn install
+
 gem install bundler
 echo '👍 ENTRYPOINT HAS STARTED—INSTALLING THE GEM BUNDLE'
 bundle config path vendor/bundle
